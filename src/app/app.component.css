@@ -1,0 +1,15 @@
+.navbar.scrolling-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    font-size: 2rem; 
+    line-height: 2;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
