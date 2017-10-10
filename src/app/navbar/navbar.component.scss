@@ -3,4 +3,32 @@
     background: url("/assets/pizza1.jpg") no-repeat center center;
     background-size: cover;
 }
-   
+
+.jumbotron{
+    background-color: rgba(249, 235, 235, 0.31);
+    padding: 3rem;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-left: 240px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.md-form label {
+    color: rgb(245, 238, 239);
+    font-size: initial;
+}
+.fa {
+    font-size: 30px;
+}
+.form-inline .form-group {
+    margin-right: 4rem;
+}
+
+.btn-primary {
+    width: 150px;
+}
+
+.btn{
+    font-size: 1.8rem;
+}
