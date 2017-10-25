@@ -1,53 +1,52 @@
-<header>         
-  <!-- <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" [containerInside]="false">
-      <logo>
-          <a class="logo navbar-brand" href="#"><strong>Navbar</strong></a>
-      </logo>
-      <links>
-          <ul class="navbar-nav mr-auto" style="margin-left:1050px">
-              <li class="nav-item active waves-light" mdbRippleRadius>
-                  <a class="nav-link">Add Mess <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item waves-light" mdbRippleRadius>
-                  <a class="nav-link" [routerLink]="['/signup']">Sign In</a>
-              </li>
-
-          </ul>
-        </links>
-          
-           
-         
-      
-  </mdb-navbar> -->
-  <!-- Main -->
-  <div class="view intro hm-purple-light" style="">
-      <div class="full-bg-img flex-center">
-          <div class="container text-center white-text wow fadeInUp">
-            <form class="form-inline jumbotron" style="position:fixed;margin-top: -215px;margin-left: 110px;margin-right: 110px;">
+<!--Main Navigation-->
+<header>
+    
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-pink scrolling-navbar">
+            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Add Mess <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['/signup']">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['/login']">Log in</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Opinions</a>
+                    </li> -->
+                </ul>
                 
-                    <div class="md-form form-group">
-                        <i class="fa fa-map-marker"></i>
-                        <input type="email" id="form91" class="form-control validate" mdbActive>
-                        <label for="form91" style="padding-left:20px" data-error="wrong" data-success="right">Enter City</label>
-                    </div>
-                
-                    <div class="md-form form-group">
-                        <i class="fa fa-map-marker"></i>
-                        <input type="password" id="form92" class="form-control validate" mdbActive>
-                        <label for="form92" style="padding-left:20px" data-error="wrong" data-success="right">Enter Area</label>
-                    </div>
-                
-                    <div class="md-form form-group">
-                        <button type="button" class="btn btn-primary">Search</button>
-                    </div>
-                
-                </form>
-          </div>
-      </div>
-  </div>
-  <!-- /.Main -->
-
-                                
-                     
-
-</header>     
+            </div>
+        </nav>
+    
+    </header>
+    <!--Main Navigation-->
+                    
+<!-- Old Navbar -->
+<!-- <header>
+    
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-pink scrolling-navbar">
+            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Add Mess <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['/signup']">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    </header> -->
+   

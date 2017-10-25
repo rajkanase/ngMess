@@ -8,6 +8,10 @@ import { LoginComponent } from './login/login.component';
 import { MyRoutingModule } from "app/app.router";
 import { SignupComponent } from './signup/signup.component';
 import { ForgetComponent } from './forget/forget.component';
+import { FormsModule } from '@angular/forms';
+import { SignupService } from "app/signup/signup.service";
+import { HttpModule } from "@angular/http";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,15 +19,18 @@ import { ForgetComponent } from './forget/forget.component';
     NavbarComponent,
     LoginComponent,
     SignupComponent,
-    ForgetComponent
+    ForgetComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
-    MyRoutingModule
+    MyRoutingModule,
+    FormsModule,
+    HttpModule
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
-  providers: [],
+  providers: [SignupService],
   bootstrap: [AppComponent]
  
 })
